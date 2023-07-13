@@ -1,0 +1,64 @@
+body{
+    height: 100%;
+    background-image: url(/asset/img/bmi_img.jpg);
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+.container {
+    background-color: #ffffff4d;
+    backdrop-filter: blur(33px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.438);
+    background-blend-mode: overlay;
+    height: 100%;
+    width: fit-content;
+    margin-top: 10%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid rgba(255, 255, 255, 0.096);
+    border-radius: 25px;
+    position: relative;
+    
+}
+
+.container:hover {
+    box-shadow: 0 0 60px 0 #ccc;
+    transition: .3s;
+    transform: scale(1.02);
+}
+#height, #weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 60px;
+    border-style: none;
+    margin:0 auto;
+    background-color: #ffffff81;
+}
+
+#weight-guide{
+    margin-top: 10%;
+}
+
+#results{
+    margin-top: 6%;
+    font-size: 35px;
+    color: rgb(47, 0, 255);
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    margin-top: 10%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(35, 158, 127, 0.418);
+    color: #fff;
+    font-size: 25px;
+}
+
+h1{
+    padding-left: 15px;
+    padding-top: 25px;
+}
